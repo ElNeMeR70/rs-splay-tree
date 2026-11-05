@@ -1,0 +1,13 @@
+[package]
+name = "rs-splay-tree"
+version = "1.0.0"
+edition = "2021"
+description = "Splay tree with amortized O(log n) and bottom-up splaying"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-splay-tree"
+keywords = ["rust", "splay-tree", "balanced-bst", "data-structures", "algorithms"]
+
+[[bin]]
+name = "rs_splay_tree"
+path = "main.rs"
